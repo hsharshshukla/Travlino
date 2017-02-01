@@ -1,0 +1,35 @@
+"""indtrip URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/1.10/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  url(r'^$', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  url(r'^$', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.conf.urls import url, include
+    2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
+"""
+from django.conf.urls import url, include
+from . import views
+
+urlpatterns = [
+    url(r'^$', views.index, name='index'),    
+    url(r'^services/', views.services, name = 'services'),
+    url(r'^exotics/', views.exotics, name = 'exotics'),
+    url(r'^whatsyourwish/', views.whatsyourwish, name = 'whatsyourwish'),
+    url(r'^hoppers/', views.hoppers, name = 'hoppers'),
+    url(r'^flights/', views.flights, name = 'flights'),
+    url(r'^hotels/', views.hotels, name = 'hotels'),
+    url(r'^travlino/', views.travlino, name = 'travlino'),
+    url(r'^contact/', views.contact, name = 'contact'),
+    url(r'^membership/', views.membership, name = 'membership'),
+    url(r'^membershiplans/', views.membershiplans, name = 'membershiplans'),
+    url(r'^login/', views.login, name = 'login'),
+    url(r'^signup/', views.signup, name = 'signup'),
+    url(r'^corporate/', views.corporate, name = 'corporate'),
+    
+]

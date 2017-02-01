@@ -1,0 +1,485 @@
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <!-- Title -->
+        <title>Travlino - Experience India</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+         {% load staticfiles %}
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+        
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="{% static 'css/animate.css'  %}" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/nexus.css' %}" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/responsive.css' %}" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/custom.css' %}" rel="stylesheet">
+        <!-- Google Fonts-->
+        <link href="http://fonts.googleapis.com/css?family=Raleway:100,300,400" type="text/css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <!--  <div id="social" class="visible-lg"> 
+            <ul class="social-icons pull-right hidden-xs">
+                <li class="social-rss">
+                    <a href="#" target="_blank" title="RSS"></a>
+                </li>
+                <li class="social-twitter">
+                    <a href="#" target="_blank" title="Twitter"></a>
+                </li>
+                <li class="social-facebook">
+                    <a href="#" target="_blank" title="Facebook"></a>
+                </li>
+                <li class="social-googleplus">
+                    <a href="#" target="_blank" title="GooglePlus"></a>
+                </li>
+            </ul>
+        </div> -->
+        <!-- Header -->
+        <div id="header" style="background-position: 50% 0%; <br />
+<b>Notice</b>:  Undefined variable: full_page in <b>C:\xampp\htdocs\bootstrap\html\php\header.php</b> on line <b>46</b><br />
+" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html" title="">
+                         <!--<img src="assets/img/logo.png" alt="Logo" />-->
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                </div>
+                <!-- Top Menu -->
+                <div id="hornav" class="row text-light">
+                    <div class="col-md-12">
+                        <div class="text-center visible-lg">
+                            <ul id="hornavmenu" class="nav navbar-nav">
+                           		 <li>
+                                    <a href="http://www.travlino.com">Home</a>  <!-- Harsh has removed active attribute placed after fa-home -->
+                                </li>
+                                <li>
+                                    <a href='/services/' >Services</a>
+                                    <ul>
+                                        <li class="parent">
+                                            <span>Tours</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="/exotics/">Exotics</a>
+                                                </li>
+                                                <li>
+                                                    <a href='/whatsyourwish/'>What's your Wish</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <!--
+                                        <li class="parent">
+                                            <span>For Hoppers</span>
+                                            <ul>
+                                            	  
+                                                <li>
+                                                    <a href="features-labels.html">2ba</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-progress-bars.html">2bb</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-panels.html">2bc</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-pagination.html">2bd</a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                        
+                                        <li class="">
+                                            <span>Flights</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="features-icons.html">2ca</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-icons-social.html">2cb</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-icons-font-awesome.html">2cc</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-icons-glyphicons.html">2cd</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        -->
+                                        <li>
+                                            <a href='/hoppers/'>Hoppers</a>
+                                        </li>
+                                        <li>
+                                            <a href='/flights/'>Flights</a>
+                                        </li>
+                                        <li>
+                                            <a href='/hotels/'>Hotels</a>
+                                        </li>
+                                        <!--  
+                                        <li>
+                                            <a href="features-buttons.html"></a>
+                                        </li>
+                                        <li>
+                                            <a href="features-carousels.html">2g</a>
+                                        </li>
+                                        <li>
+                                            <a href="features-grid.html">2h</a>
+                                        </li>
+                                        <li>
+                                            <a href="features-animate-on-scroll.html">2i</a>
+                                        </li>
+                                        -->
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href='/travlino/' >Travlino</a>
+                                    <!--  <span >Travlino</span> 
+                                    <ul>
+                                        <!-- 
+                                        <li>
+                                            <a href="pages-about-us.html">Aim</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="pages-services.html"></a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-faq.html"></a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-about-me.html">3d</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-full-width.html">3e</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-left-sidebar.html">3f</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-right-sidebar.html">3g</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-login.html">Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-sign-up.html">Sign-Up</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-404.html">404 Error Page</a>
+                                        </li>
+                                       
+                                    </ul>-->
+                                </li>
+                                <li>
+                                    <a href="/contact/" >Contact</a>
+                                </li>
+                                <li>
+                                    <a href="/membership/" >Membership</a>
+                                    <ul>
+                                    	<li>
+                                    		<a href="/membershiplans/" >Membership Plans</a>
+                                    	</li>
+                                    	<li>
+                                    		<a href="/login/" >Login</a>
+                                    	</li>
+                                    	                                    	
+                                    	<li>
+                                    		<a href="/signup/" >Sign-up</a>
+                                    	</li>
+                                    	
+                                    </ul>
+                                </li>
+                                <li>
+                                	<a href="/corporate/"  >Corporate</a>
+                                </li>
+                                
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Top Menu -->
+            </div>
+        </div>
+        <!-- End Header -->
+        <!-- === END HEADER === -->
+        <!-- === BEGIN CONTENT === -->
+        <div id="content">
+            <div class="container background-white">
+                <div class="row margin-vert-30">
+            <!--  <div class="col-md-12">
+                    
+                    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>						
+                    -->
+                    <div class="col-md-12">
+                        <h2 class="margin-bottom-20">Please post all your queries on </h2>
+                        <!-- Intro / Why Us? -->
+                          <div class="row">
+                            <!--<div class="col-md-8 animate fadeInLeft">
+                                <p>Email Id - Travlino@gmail.com </p>                         		                          		
+                          		      
+                            </div>
+                            <div class="col-md-12 animate fadeIn">
+                                <!-- <h3 class="margin-bottom-10">Why Us?</h3> -->
+                                 <div>
+                                <ul class="list-unstyled list-services">
+                                    <li>
+                                        <i class="fa fa-chevron-circle-right color-gray-light"></i>Email Id - travlininfo@gmail.com                                         
+                                    </li>
+                                     <li>
+                                        <i class="fa fa-chevron-circle-right color-gray-light"></i>Phone - +91 8802545189
+                                        
+                                    </li>
+                                    <!--<li>
+                                        <i class="fa fa-chevron-circle-right color-gray-light"></i>Safari
+                                    	<p>One of the most famous Safari's Lion Safari in Gir National Park, Gujarat</p>	    
+                                    </li>
+                                        
+                                    <li>
+                                        <i class="fa fa-chevron-circle-right color-gray-light"></i>Royal Leisure
+                                    <p>It is a experience of Timeless journey of Royal Rajput Clans of Rajasthan and their Royal heritage</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-chevron-circle-right color-gray-light"></i>Namma Chennai
+                                    <p> Chennai is known across the globe for exotic Architecture of its Temples like Meenakshi Temple</p>	
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-chevron-circle-right color-gray-light"></i>Goa
+                                    <p>One of the most famous beach line in the world with less crowded and remote beaches with exotic surroundings</p>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Intro / Why Us? -->
+                        <div class="row">
+                            <!-- <hr class="margin-top-20 margin-bottom-30">
+                        </div>
+                        <!-- <div class="row">
+                            <div class="col-sm-4 text-right animate fadeInLeft">
+                                <h4>Mirum est notare</h4>
+                                <p>Praesent sit amet condimentum lorem, dictum fringilla tortor. Phasellus posuere massa neque.</p>
+                                <h4>Quam nunc putamus</h4>
+                                <p>Praesent sit amet condimentum lorem, dictum fringilla tortor. Phasellus posuere massa neque.</p>
+                                <h4>Fusce condimentum</h4>
+                                <p>Praesent sit amet condimentum lorem, dictum fringilla tortor. Phasellus posuere massa neque.</p>
+                            </div>
+                            <!-- <div class="col-sm-4 animate fadeInUp">
+                                <img src="assets/img/fillers/filler4.jpg" alt="filler image">
+                            </div> -->
+                            <!-- <div class="col-sm-4 animate fadeInRight">
+                                <h4>Mirum est notare</h4>
+                                <p>Praesent sit amet condimentum lorem, dictum fringilla tortor. Phasellus posuere massa neque.</p>
+                                <h4>Quam nunc putamus</h4>
+                                <p>Praesent sit amet condimentum lorem, dictum fringilla tortor. Phasellus posuere massa neque.</p>
+                                <h4>Fusce condimentum</h4>
+                                <p>Praesent sit amet condimentum lorem, dictum fringilla tortor. Phasellus posuere massa neque.</p>
+                            </div>
+                        </div>
+                        <hr class="margin-top-20 margin-bottom-30">
+                        <!-- Top Panels -->
+                        <!-- <div class="row padding-top-20">
+                            <div class="col-sm-6 col-md-3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading text-center">
+                                        <!-- <i class="fa fa-tasks fa-4x"></i> 
+                                        <h3 class="margin-bottom-10">Personal Touch</h3>
+                                    </div>
+                                    <div class="panel-body text-center">                                        
+                                        We personally help you out to plan your journey. No bots involved. This leads to having a better solution than developed on the basis of default stats
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        <!--  <div class="col-sm-6 col-md-3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading text-center">
+                                       <!-- <i class="fa fa-twitter fa-4x"></i> 
+                                       <h3 class="margin-bottom-10">OnJourney Support</h3> 
+                                    </div>
+                                    <div class="panel-body text-center">
+                                        
+                                        We remain in touch while you have a ongoing journey to enhance your experience and help you out with any kind of issue that you might face in journey
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-sm-6 col-md-3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading text-center">
+                                        <!-- <i class="fa fa-code fa-4x"></i>
+                                        <h3 class="margin-bottom-10"></h3>
+                                    </div>
+                                    <div class="panel-body text-center">
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading text-center">
+                                        <!-- <i class="fa fa-list-ul fa-4x"></i> -->
+                                        <h3 class="margin-bottom-10"></h3>
+                                    </div>
+                                    <div class="panel-body text-center">
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Top Panels -->
+                        <hr class="margin-top-3	0">
+                        <!-- Middle Text -->
+                    <!-- <div class="row">
+                            <div class="col-md-12 text-center margin-top-10 animate fadeInUp">
+                                <h2 class="text-center margin-top-10">Nulla in enim quis ipsum pulvinar imperdiet vitae nec velit..</h2>
+                                <p class="text-center margin-bottom-30">Aenean venenatis egestas iaculis. Donec non urna quam. Nullam consectetur condimentum dolor at bibendum.</p>
+                            </div>
+                        </div>
+                        <!-- End Middle Text -->
+                        <!-- <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- === END CONTENT === -->
+        <!-- === BEGIN FOOTER === -->
+        <!-- <div id="base" class="background-dark text-light">
+            <div class="container padding-vert-30">
+                <div class="row">
+                    <!-- Disclaimer -->
+                    <!-- <div class="col-md-6 margin-bottom-30">
+                        <h3 class="margin-bottom-10">Disclaimer</h3>
+                        <p>All stock images on this template demo are for presentation purposes only, intended to represent a live site and are not included with the template or in any of the Joomla51 club membership plans.</p>
+                        <p>Dribbble images are property of their respective owners. All other images are freely available from
+                            <a class="nobold" href="http://www.unsplash.com/" target="_blank">Unsplash</a>.</p>
+                    </div>
+                    <!-- End Disclaimer -->
+                    <!-- Image Credits -->
+                    <!-- <div class="col-sm-6 col-md-3 margin-bottom-30">
+                        <h3 class="margin-bottom-10">Image Credits</h3>
+                        <ul class="menu">
+                            <li>
+                                <a href="http://www.coffeeandplaid.com/" target="_blank">Coffee & Plaid</a>
+                            </li>
+                            <li>
+                                <a href="https://dribbble.com/OMFGdesign" target="_blank">Olly Freeman</a>
+                            </li>
+                            <li>
+                                <a href="https://dribbble.com/artnok" target="_blank">Niko Picard</a>
+                            </li>
+                            <li>
+                                <a href="https://dribbble.com/forsuregraphic" target="_blank">Forsuregraphic</a>
+                            </li>
+                            <li>
+                                <a href="https://www.unsplash.com" target="_blank">Unsplash</a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- End Image Credits -->
+                    <!-- Friends -->
+                    <!-- <div class="col-sm-6 col-md-3 margin-bottom-30">
+                        <h3 class="margin-bottom-10">Friends</h3>
+                        <ul class="menu">
+                            <li>
+                                <a href="#">Amanda Allen</a>
+                            </li>
+                            <li>
+                                <a href="#">John Adams</a>
+                            </li>
+                            <li>
+                                <a href="#">Mark Sanchez</a>
+                            </li>
+                            <li>
+                                <a href="#">Diane Reed</a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- End Friends -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+       <!--  <div id="footer" class="background-dark text-light">
+            <div class="container no-padding">
+                <div class="row">
+                    <!-- Footer Menu -->
+                   <!--  <div id="footermenu" class="col-md-8">
+                        <ul class="list-unstyled list-inline">
+                            <li>
+                                <a href="#" target="_blank">Sample Link</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Sample Link</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Sample Link</a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">Sample Link</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Footer Menu -->
+                    <!-- Copyright -->
+                    <!-- <div id="copyright" class="col-md-4">
+                        <p class="pull-right">(c) 2014 Your Copyright Info</p>
+                    </div>
+                    <!-- End Copyright -->
+                </div>
+            </div>
+            <!-- End Footer -->
+            <!-- JS -->
+            <script type="text/javascript" src="assets/js/jquery.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/scripts.js"></script>
+            <!-- Isotope - Portfolio Sorting -->
+            <script type="text/javascript" src="assets/js/jquery.isotope.js" type="text/javascript"></script>
+            <!-- Mobile Menu - Slicknav -->
+            <script type="text/javascript" src="assets/js/jquery.slicknav.js" type="text/javascript"></script>
+            <!-- Animate on Scroll-->
+            <script type="text/javascript" src="assets/js/jquery.visible.js" charset="utf-8"></script>
+            <!-- Stellar Parallax -->
+            <script type="text/javascript" src="assets/js/jquery.stellar.js" charset="utf-8"></script>
+            <!-- Sticky Div -->
+            <script type="text/javascript" src="assets/js/jquery.sticky.js" charset="utf-8"></script>
+            <!-- Slimbox2-->
+            <script type="text/javascript" src="assets/js/slimbox2.js" charset="utf-8"></script>
+            <!-- Modernizr -->
+            <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+            <!-- End JS -->
+    </body>
+</html>
+<!-- === END FOOTER === -->
