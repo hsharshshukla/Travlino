@@ -1,0 +1,15 @@
+#!/usr/bin/env python                                                                    
+# -*- coding: UTF-8 -*-                                                                  
+#post-receive                                                                            
+
+import sys                                                                               
+import subprocess                                                                        
+
+# 1. Read STDIN (Format: "from_commit to_commit branch_name")                            
+(old, new, branch) = sys.stdin.read().split()                                            
+
+# 2. Only deploy if master branch was pushed                                             
+if branch == 'refs/heads/master':                                                        
+    subprocess.call('date >> ~/prod-deployment.log', shell=True)                         
+    subprocess.call('GIT_WORK_TREE=/home/ft/app.prod git checkout master -f', shell=True)
+    subprocess.call('cd ../../app.prod;bower update', shell=True)  

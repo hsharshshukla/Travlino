@@ -31,5 +31,5 @@ urlpatterns = [
     url(r'^login/', views.login, name = 'login'),
     url(r'^signup/', views.signup, name = 'signup'),
     url(r'^corporate/', views.corporate, name = 'corporate'),
-    
+    url(r'^gitconnect/', views.gitconnect, name = 'gitconnect'),
 ]

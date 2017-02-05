@@ -34,3 +34,5 @@ def corporate(request):
         return render (request,'corporate.html')
 def contact_form(request):
         return render (request,'contact_form.html')
+def gitconnect(request):
+        return render (request,'gitconnect.html')    
